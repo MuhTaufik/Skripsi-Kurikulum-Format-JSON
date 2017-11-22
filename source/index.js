@@ -4,7 +4,7 @@
 
   const options = {
     styleMap: [
-      "table => table.table.table-bordered.text-center",
+      "table => table.table.table-bordered.table-responsive.text-center",
       "p => p.text-center"
     ]
   }

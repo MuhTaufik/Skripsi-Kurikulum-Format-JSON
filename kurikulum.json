@@ -1,0 +1,163 @@
+{
+    "matakuliah": [{
+        "AIF181101" : {
+            "namaMatkul": "Computational Thinking",
+            "tempuh" : false,
+            "lulus" : false,
+            "sks": 3,
+            "semester": 1
+        }
+    },{
+        "AIF181103" : {
+            "namaMatkul": "Matematika Dasar",
+            "tempuh" : false,
+            "lulus" : false,
+            "sks": 4,
+            "semester": 1
+        }
+    },{
+        "AIF181105" : {
+            "namaMatkul": "Pengantar Informatika",
+            "tempuh" : false,
+            "lulus" : false,
+            "sks": 2,
+            "semester": 1
+        }
+    },{
+        "AIF181101" : {
+            "namaMatkul": "Matematika Diskret",
+            "tempuh" : false,
+            "lulus" : false,
+            "sks": 3,
+            "semester": 1
+        }
+    },{
+        "MKU170130" : {
+            "namaMatkul": "Bahasa Indonesia",
+            "tempuh" : false,
+            "lulus" : false,
+            "sks": 2,
+            "semester": 1
+        }
+    },{
+        "MKU170110" : {
+            "namaMatkul": "Pendidikan Kewarganegaraan",
+            "tempuh" : false,
+            "lulus" : false,
+            "sks": 2,
+            "semester": 1
+        }
+    },{
+        "MKU170120" : {
+            "namaMatkul": "Logika",
+            "tempuh" : false,
+            "lulus" : false,
+            "sks": 2,
+            "semester": 1
+        }
+    },{
+        "AIF181100" : {
+            "namaMatkul": "Dasar Pemograman",
+            "tempuh" : false,
+            "lulus" : "AIF181101",
+            "sks": 4,
+            "semester": 2
+        }
+    },{
+        "AIF181202" : {
+            "namaMatkul": "Arsitektur dan Organisasi Komputer",
+            "tempuh" : false,
+            "lulus" : false,
+            "sks": 4,
+            "semester": 2
+        }
+    },{
+        "AIF181104" : {
+            "namaMatkul": "Logika Informatika",
+            "tempuh" : false,
+            "lulus" : false,
+            "sks": 3,
+            "semester": 2
+        }
+    },{
+        "AIF181106" : {
+            "namaMatkul": "Matriks dan Ruang Vektor",
+            "tempuh" : false,
+            "lulus" : false,
+            "sks": 3,
+            "semester": 2
+        }
+    },{
+        "MKU170240" : {
+            "namaMatkul": "Etika",
+            "tempuh" : false,
+            "lulus" : false,
+            "sks": 2,
+            "semester": 2
+        }
+    },{
+        "MKU170250" : {
+            "namaMatkul": "Pancasila",
+            "tempuh" : false,
+            "lulus" : false,
+            "sks": 2,
+            "semester": 2
+        }
+    },{
+        "AIF182101" : {
+            "namaMatkul": "Algoritma Struktur Data",
+            "tempuh" : false,
+            "lulus" : "AIF181100",
+            "sks": 4,
+            "semester": 3
+        }
+    },{
+        "MKU170250" : {
+            "namaMatkul": "Pancasila",
+            "tempuh" : false,
+            "lulus" : false,
+            "sks": 2,
+            "semester": 2
+        }
+    },{
+        "MKU170250" : {
+            "namaMatkul": "Pancasila",
+            "tempuh" : false,
+            "lulus" : false,
+            "sks": 2,
+            "semester": 2
+        }
+    },{
+        "MKU170250" : {
+            "namaMatkul": "Pancasila",
+            "tempuh" : false,
+            "lulus" : false,
+            "sks": 2,
+            "semester": 2
+        }
+    },{
+        "MKU170250" : {
+            "namaMatkul": "Pancasila",
+            "tempuh" : false,
+            "lulus" : false,
+            "sks": 2,
+            "semester": 2
+        }
+    },{
+        "MKU170250" : {
+            "namaMatkul": "Pancasila",
+            "tempuh" : false,
+            "lulus" : false,
+            "sks": 2,
+            "semester": 2
+        }
+    },{
+        "MKU170250" : {
+            "namaMatkul": "Pancasila",
+            "tempuh" : false,
+            "lulus" : false,
+            "sks": 2,
+            "semester": 2
+        }
+    }]
+}

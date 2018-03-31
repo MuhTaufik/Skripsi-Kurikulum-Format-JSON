@@ -1,5 +1,6 @@
-digraph G {
-    ranksep=.80; size="12.5,12.5"
+digraph asde91 {
+    ranksep=.50; size = "7.5,7.5";
+
     {
         node [shape=oval, fontsize=16];
         /* the time-line graph */
@@ -8,42 +9,35 @@ digraph G {
     }
     
     node [shape=box];
-    { rank = same; "Semester 1"; "AIF181101-03"; "AIF181103" ;"AIF181105"; "AIF181107"; "MKU170130"; "MKU170110"; "MKU170120";}
-    { rank = same; "Semester 2"; "AIF181100"; "AIF181202"; "AIF181104"; "AIF181106"; "MKU170240"; "MKU170250";}
-    { rank = same; "Semester 3"; "AIF182101"; "AIF182103"; "AIF182105"; "AIF182007"; "AIF182109"; "MKU170370/MKU170380"; "MKU170380";}
+    { rank = same; "Semester 1"; "AIF181101-03"; "AIF181103-04" ;"AIF181105-02"; "AIF181107-03"; "MKU170130-02"; "MKU170110-02"; "MKU170120-02";}
+    { rank = same; "Semester 2"; "AIF181100-04"; "AIF181102-04"; "AIF181104-03"; "AIF181106-03"; "MKU170240-02"; "MKU170250-02";}
+    { rank = same; "Semester 3"; "AIF182101-03"; "AIF182103-04"; "AIF182105-02"; "AIF182007-02"; "AIF182109-03"; "MKU170370-02/MKU170380-02; "MKU170380"; }
     { rank = same; "Semester 4";  }
     { rank = same; "Semester 5";  }
     { rank = same; "Semester 6";  }
     { rank = same; "Semester 7";  }
     { rank = same; "Semester 7";  }
 
-    "AIF181101-03" [label="AIF181101 \nComputational Thinking"];
-    "AIF181103" [label="AIF181103 \nMatematika Dasar"];
-    "AIF181105" [label="AIF181105 \nPengantar Informatika"];
-    "AIF181107" [label="AIF181107 \nMatematika Diskret"];
-    "MKU170130" [label="MKU170130 \nBahasa Indonesia"];
-    "MKU170110" [label="MKU170110 \nPendidikan Kewarganegaraan"];
-    "MKU170120" [label="MKU170120 \nLogika"];
+    "AIF181101-03" ["semester": 1,label="AIF181101-03" \nComputational Thingking"]
+    "AIF181103-04" ["semester": 1,label="AIF181103-04" \nMatematika Dasar"]
+    "AIF181105-02" ["semester": 1,label="AIF181105-02" \nPengantar Informatika"]
+    "AIF181107-03" ["semester": 1,label="AIF181107-03" \nMatematika Diskret]
+    "MKU170130-02" ["semester": 1,label="MKU170130-02" \nBahasa Indonesia]
+    "MKU170110-02" ["semester": 1,label="MKU170110-02" \nPendidikan Kewarganegaraan]
+    "MKU170120-02" ["semester": 1,label="MKU170120-02" \nLogika
 
-    "AIF181100" [label="AIF181100 \nDasar Pemograman"];
-    "AIF181202" [label="AIF181202 \nArsitektur dan Organisasi Komputer"];
-    "AIF181104" [label="AIF181104 \nLogika Informatika"];
-    "AIF181106" [label="AIF181106 \nMatriks dan Ruang Vektor"];
-    "MKU170240" [label="MKU170240 \nEtika"];
-    "MKU170250" [label="MKU170250 \nLogika"];
+    "AIF181100-04" ["semester": 2,label="AIF181100-04" \nDasar Pemograman"]
+    "AIF181202-04" ["semester": 2,label="AIF181202-04" \nArsitektur dan Organisasi Komputer"]
+    "AIF181104-03" ["semester": 2,label="AIF181104-03" \nLogika Informatika]
+    "AIF181106-03" ["semester": 2,label="AIF181106-03" \nMatriks dan Ruang Vektor]
+    "MKU170240-02" ["semester": 2,label="MKU170240-02" \nEtika]
+    "MKU170240-02" ["semester": 2,label="MKU170250-02" \nLogika]
 
-    "AIF182101" [label="AIF182101 \nAlgoritma Struktur Data"];
-    "AIF182103" [label="AIF182103 \nStruktur Diskret"];
-    "AIF182105" [label="AIF182101 \nPemograman Berorientasi Objek"];
-    "AIF182007" [label="AIF182101 \nTeknikPresentasi"];
-    "AIF182109" [label="AIF182101 \nStatistika untuk Komputasi"];
-    "MKU170370/MKU170380" [label="MKU170370/MKU170380 \nAgama Katolik/Fenomenologi Agama"];
-    "MKU170380" [label="MKU170380 \nEstetika"];
-
-    "AIF181101-03" -> "AIF181100" [tempuh= false , lulus="AIF181101"]
-    "AIF181100" -> "AIF182101" [tempuh= false , lulus="AIF181100"]
-    "AIF181107" -> "AIF182103" [tempuh="AIF181107" , lulus=false, style=dotted]
-    "AIF181100" -> "AIF182105" [tempuh= false , lulus="AIF181100"]
-
-
+    "AIF182101-03" ["semester": 3,label="AIF182101-03" \nAlgoritma Struktur Data"]
+    "AIF182103-04" ["semester": 3,label="AIF182103-04" \nStruktur Diskret"]
+    "AIF182105-02" ["semester": 3,label="AIF182101-03" \nPemograman Berorientasi Objek]
+    "AIF182007-02" ["semester": 3,label="AIF182101-03" \nTeknikPresentasi]
+    "AIF182109-03" ["semester": 3,label="AIF182101-03" \Statistika untuk Komputasi]
+    "MKU170370-02/MKU170380-02" ["semester": 3,label="MKU170370-02/MKU170380-02 \nAgama Katolik/Fenomenologi Agama"]
+    "MKU170380" ["semester": 3,label="MKU170380 \nEstetika"]
 }

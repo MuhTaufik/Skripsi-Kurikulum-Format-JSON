@@ -12,21 +12,26 @@
                 reader.readAsText(source.files[0],'UTF-8');
                 reader.onload = function(e){
                     var matakuliah = JSON.parse(e.target.result);
-                    'Digraph G'
-                    ranksep(),
-                    sametorank(groupSemester(matakuliah)),
-                    matkultoNode(matakuliah),
-                    matkultoEdge(matakuliah)
+                    console.log([
+                        ranksep(),
+                        sametorank(groupSemester(matakuliah)),
+                        matkultoNode(matakuliah),
+                        matkultoEdge(matakuliah)].join('\n'));
                 }
             } );
             
 
-            function rankSeparator(semester){
+            function rankSeparator(){
             //untuk menunjukan semester 1 - 8 contohnya "semester1" -> "semester 2" arahnya ke bawah
+                var rank = [];
+                for(i=1; i<= 8; I++){
+                    rank.join(Node = plaintext);
+                    rank.join(`semester ${i} + ` -> ` + `);
+                }
             }
 
             function groupSemester(semester){
-            //untuk menunjukan per semester itu memiliki mata kuliah apa saja
+            //untuk menunjukan per semester itu memiliki mata kuliah apa saja semester + mataKuliah
             //    var namaMatkul = [];
             //    for(i=1; i<=8;i++){
             //        namaMatkul.push(`semester ${i}`);
@@ -39,7 +44,7 @@
             }
 
             function matakuliahtoNode(){
-            //mataKuliah dijadiin node cthnya "AIF181100" [label="AIF181100 \nDasar Pemograman"];
+            //mataKuliah dijadiin node cthnya "AIF181100" [label="AIF181100-3 \nDasar Pemograman"];
             }
 
             function matakuliahtoEdge(){

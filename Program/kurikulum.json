@@ -619,7 +619,6 @@
         "jenis" : "pilihan",
         "semester": 5 
     },{
-        //pilihan 6
         "kodeMatkul" : "AIF183010",
         "namaMatkul": "Kerja Praktek 2",
         "tempuh" : [],
@@ -791,7 +790,6 @@
         "jenis" : "pilihan",
         "semester": 6 
     },{
-        //pilihan 7
         "kodeMatkul" : "AIF184007",
         "namaMatkul": "Kerja Praktek 3",
         "tempuh" : [],
@@ -945,7 +943,6 @@
         "jenis" : "pilihan",
         "semester": 7 
     },{
-        // pilihan 8
         "kodeMatkul" : "AIF184104",
         "namaMatkul": "Bio-Inspired Computing",
         "tempuh" : [],
